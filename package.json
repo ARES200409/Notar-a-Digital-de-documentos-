@@ -1,0 +1,21 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "Notaría Digital local con firma CMS y Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "compile": "node compile.js",
+    "test": "node test.js",
+    "test:web": "node test-web.js",
+    "demo": "node flujo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "ganache": "^7.9.2",
+    "solc": "^0.8.26"
+  }
+}
